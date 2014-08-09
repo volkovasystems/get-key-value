@@ -4,6 +4,7 @@
 
 		Copyright (c) 2014 Regynald Reiner Ventura
 		Copyright (c) 2014 Richeve Siodina Bebedor
+		Copyright (c) 2014 Jann Paolo Caña
 
 		Permission is hereby granted, free of charge, to any person obtaining a copy
 		of this software and associated documentation files (the "Software"), to deal
