@@ -85,7 +85,7 @@ var getKeyValue = function getKeyValue( key, collectionName, databaseName, datab
 	].join( "" );
 
 	//Create a connection using the mongo database url.
-	var connection = mongoose.connect( mongoDatabaseURL );
+	var connection = mongoose.createConnection( mongoDatabaseURL );
 		
 	//When connected, bind to cabinetkv.
 	connection.on( "connected",
