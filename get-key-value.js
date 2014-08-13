@@ -103,7 +103,7 @@ var getKeyValue = function getKeyValue( key, collectionName, databaseName, datab
 
 					}else{
 						var encodedValue = new Buffer( util.inspect( value, { "depth": null } ) ).toString( "base64" );
-						console.log( encodedValue );
+						console.log( "@transform-base64-to-json:" + encodedValue );
 
 						callback( null, value );
 					}
